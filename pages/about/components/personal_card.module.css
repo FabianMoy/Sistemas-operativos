@@ -1,0 +1,36 @@
+.card_wrapper{
+    background: linear-gradient(90deg,#1C5F15 ,#277D1E);
+    background: -prefix-linear-gradient(90deg,#1C5F15 ,#277D1E);
+    border-radius: 4rem;
+    padding: 3rem;
+    margin: 3rem;
+    box-shadow: 2rem 2rem 5rem rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.card_wrapper:hover{
+    transform: scale(1.02);
+}
+.card_picture_wrapper{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0.3rem 0.3rem 1rem rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.card_picture{
+    border-radius: 50%;
+}
+
+.card_contact{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.card_picture_container{
+    display: flex;
+    justify-content: space-between;
+}

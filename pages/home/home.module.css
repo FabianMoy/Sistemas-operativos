@@ -1,0 +1,23 @@
+.home_wrapper_cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home_wrapper_cover p {
+    margin: 1rem;
+    text-align: left;
+}
+
+.home_cover{
+    border-radius: 2rem;
+}
+
+.home_hero{
+    margin: 5rem;
+}
+
+.list li{
+    margin: 1rem 0;
+}

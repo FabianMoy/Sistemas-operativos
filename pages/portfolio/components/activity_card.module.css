@@ -1,0 +1,28 @@
+.portfolio_activity_card{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur( 2.5px);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.portfolio_activity_card:hover{
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.portfolio_activity_text{
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.portfolio_picture{
+    margin: 1rem;
+    width: 180px;
+    height: 180px;
+}
